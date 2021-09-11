@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding HTML Elements with JS</title>
+</head>
+<body>
+    <h1>Using JavaScript with forms</h1>
+    <!-- <input type="text" id="myInput" placeholder="Type text here"/> -->
+    <form id="myForm">
+        <input type="text" id="firstName" placeholder="Enter your first name" name="first"/>
+        <br/>
+        <br/>
+        <label for="email">
+            <input type="checkbox" id="email" name="email"/>
+            Put me on your email list.
+        </label>
+        <br/>
+        <br/>
+        <select id="cities">
+            <!-- Using the value attribute that is what will be sent -->
+            <option value="NYC">New York City</option>
+            <option>Paris</option>
+            <option>London</option>
+            <option>Los Angeles</option>
+            <option>Chicago</option>
+        </select>
+        <br/>
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
